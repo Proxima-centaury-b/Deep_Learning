@@ -3,3 +3,5 @@ Repo on Deep Learning topics like:
 - Image Classification
 - Transfert Learning
 - Reinforcement Learning
+
+I mainly use Keras and Tensorflow
