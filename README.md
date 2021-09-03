@@ -1,3 +1,31 @@
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
+$\forall x \in X, \quad \exists y \leq \epsilon$
+
+
 This was the final project of my Data Science bootcamp at Jedha. I had chance to work with two highly motivated tech-women on this topic.
 The main problem was to find a way to identify precise patterns in human protein cell images. From a data scientist point of view, this was a multi-label classification model (18 labels) with Image Segmentation.
 
@@ -6,7 +34,18 @@ Given human cells images with different regions of interest (called [organelles]
 predict the protein organelle localization labels for **each cell** in the image. In other terms, we have to predict the **type** and **localization** of these [organelles](https://en.wikipedia.org/wiki/Organelle) given a random image consisting of many (often different) human cells. 
 
 
-![RGB](Proxima-centaury-b/Kaggle_Cell_Classification/RGB.png) ![mask](Proxima-centaury-b/Kaggle_Cell_Classification/mask.png)
+![RGB](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/RGB.png)   ////////////////////////////////////////////////
+![mask](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/mask.png)
+
+$$ \psi $$    
+Inline `code` has `back-ticks around` it.
+Three or more...
+
+---
+
+Hyphens
+
+`This is a test to see how it works`
 
 
 
@@ -33,5 +72,5 @@ For this task, we used GPU hardware provided by Kaggle to reach acceptable runni
 
 #Python #Tensorflow #Deep Learning #Computer Vision #Transfert Learning 
 
-A thorough description of the problem is available on Kaggle's website : https://www.kaggle.com/c/hpa-single-cell-image-classification/overview/description 
+> A thorough description of the problem is available on Kaggle's website : https://www.kaggle.com/c/hpa-single-cell-image-classification/overview/description 
 
