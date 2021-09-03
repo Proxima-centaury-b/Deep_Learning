@@ -1,18 +1,9 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [The Problem](#the-problem)
+* [The Dataset](#the-dataset)
+* [Tech Stack](#tech-stack)
 
-## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
-## Setup
+
 To run this project, install it locally using npm:
 
 ```
@@ -29,15 +20,14 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 This was the final project of my Data Science bootcamp at Jedha. I had chance to work with two highly motivated tech-women on this topic.
 The main problem was to find a way to identify precise patterns in human protein cell images. From a data scientist point of view, this was a multi-label classification model (18 labels) with Image Segmentation.
 
-## The Problem : 
+## The Problem
 Given human cells images with different regions of interest (called [organelles](https://en.wikipedia.org/wiki/Organelle)),
 predict the protein organelle localization labels for **each cell** in the image. In other terms, we have to predict the **type** and **localization** of these [organelles](https://en.wikipedia.org/wiki/Organelle) given a random image consisting of many (often different) human cells. 
 
 
-![RGB](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/RGB.png)   ////////////////////////////////////////////////
-![mask](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/mask.png)
+![RGB](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/RGB.png)   ///////////////////////////////////////////![mask](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/mask.png)
 
-$$ \psi $$    
+   
 Inline `code` has `back-ticks around` it.
 Three or more...
 
@@ -62,13 +52,13 @@ Moreover, the labels we have to predict are *weak* image-level labels which mean
 As the training labels are a collective label for all the cells in an image, it means that each labeled pattern can be seen in the image but not necessarily that each cell within the image expresses the pattern. This imprecise labeling is what is refer to as weak.
 
 
-## The Dataset :
+## The Dataset
 
 Train and test sets were provided by The Human Protein Atlas research group  which is an initiative based in Sweden that is aimed at mapping proteins in all human cells, tissues, and organs regrouping leading researchers all around the world. These dataset was quite huge and consisted of 21.186 images of high resolution for a 160GB storage. So this was a real Big Data problem, which required many tricks to avoid endless computation, as we had to put our images (by batches) in a very deep Neural Network consisting of more de 200 layers and 4Millions training parameters (derived from the so-called EfficientNetB0).
 For this task, we used GPU hardware provided by Kaggle to reach acceptable running-times (up to 12-15 hours)
 
 
-## Tech Stack :
+## Tech Stack
 
 #Python #Tensorflow #Deep Learning #Computer Vision #Transfert Learning 
 
