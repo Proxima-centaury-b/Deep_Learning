@@ -26,7 +26,7 @@ Given human cells images with different regions of interest (called [organelles]
 predict the protein organelle localization labels for **each cell** in the image. In other terms, we have to predict the **type** and **localization** of these [organelles](https://en.wikipedia.org/wiki/Organelle) given a random image consisting of many (often different) human cells. 
 
 
-![RGB](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/RGB.png)   ///////////////////////////////////////////![mask](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/mask.png)
+![RGB](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/Images/RGB.png)///////////////////////////////////////////![mask](https://github.com/Proxima-centaury-b/Kaggle_Cell_Classification/blob/main/Images/mask.png)
 
                 
 The left image is the combination of three "channel" images (Red Green Blue) into a single colorfull image where we can see different cells. The right image is a **multilabel mask**
